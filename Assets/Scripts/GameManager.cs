@@ -5,7 +5,7 @@ public sealed class GameManager : MonoBehaviour
 {
     public static bool isPlaying;
     public static UnityEvent SuccessEvent;
-    public static float TIME = 1f;
+    public static float TIME = 2f;
     public static float CurrentTimer;
     public static int Score;
     private static readonly object instLock = new object();
